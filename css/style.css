@@ -1,0 +1,417 @@
+/* 
+font-family: 'Lato', sans-serif;
+font-family: 'Roboto', sans-serif; */
+
+/* google-fonts */
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,400&family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+}
+ h6,p{
+     color: #fff;
+     font-size: 16px;
+     font-family: 'Lato', sans-serif;
+ }
+
+.section-padding-top {
+    padding-top: 100px;
+}
+
+
+.section-padding-bottom {
+    padding-bottom: 100px;
+}
+
+
+
+
+
+h5.card-title {
+    color: #686868;
+    font-size: 14px;
+}
+
+
+
+.product-title {
+    font-size: 24px;
+    color: #0d6efd;
+    font-weight: 500;
+
+}
+
+
+
+
+
+
+
+/* header-css */
+#header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ashora-header {
+    line-height: 25px;
+    padding-bottom: 18px;
+
+
+}
+
+.ashora-header .header-wrap {
+    background: #e5e5e5;
+    padding-left: 330px;
+
+}
+
+.ashora-header .header-wrap a {
+    text-decoration: none;
+    color: #212121;
+    margin-left: 30px;
+    font-size: 12px;
+    text-transform: uppercase;
+    text-decoration: none;
+
+}
+
+.ashora-header .header-wrap a:first-child {
+    color: #1ea3de;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.ashora-header .header-wrap a:hover {
+    border-bottom: 1px solid #1ea3de;
+    color: #1ea3de;
+    transition: all 0.2 ease;
+    text-decoration: none;
+
+}
+
+.logo-header {
+    line-height: 20px;
+    padding: 16px 40px;
+    display: flex;
+    align-items: center;
+}
+
+.logo-header .logo {
+    display: flex;
+    padding: 5px 8px;
+    float: left;
+}
+
+.logo img {
+    width: 150px;
+    height: 50px;
+}
+
+
+/* main-search-bar-css */
+.logo-header .main-search-form {
+    width: 60%;
+    float: left;
+    padding-left: 100px;
+}
+
+.fix {
+    overflow: hidden;
+}
+
+.logo-header .search-box-view .email {
+    position: relative;
+    width: calc(100% - 50px);
+    float: left;
+    height: 38px;
+    font-size: 11px;
+    color: #333;
+    background: #f6f6f6;
+    line-height: 45px;
+    font-weight: 600;
+    border: none;
+    outline: none;
+
+}
+
+.logo-header .search-box-view .email::placeholder {
+    text-indent: 15px;
+    font-weight: lighter;
+    font-size: 15px;
+
+}
+
+.container img {
+    max-width: 100%;
+}
+
+.logo-header .search-box-view .submit {
+    width: 38px;
+    font-size: 16px;
+    font-weight: 400;
+    float: left;
+    background: #1ea3de;
+    color: #f6f6f6;
+    height: 38px;
+    line-height: 45px;
+    text-transform: capitalize;
+    padding-right: 1px;
+    border: none;
+    transition: all 0.3s ease;
+    position: relative;
+}
+
+.logo-header .search-box-view .email .submit i {
+    color: #fff;
+    /* margin-left: 10px; */
+    font-size: 18px;
+    position: absolute;
+    top: 2px;
+}
+
+i.fas.fa-search {
+    position: relative;
+    top: -3px;
+}
+
+.ashora-header .ashora-app {
+    float: left;
+    display: inline-block;
+}
+
+
+.ashora-header .ashora-app i {
+    font-size: 16px;
+    /* float: left; */
+    margin-left: 10px;
+    /* overflow: hidden; */
+    height: -2px;
+    /* margin-bottom: 0px; */
+    /* text-align: center; */
+    display: inline-table;
+    color: #333;
+    position: relative;
+    top: 5px;
+}
+
+/* slider-css */
+.slider-section {
+    height: 346px;
+    width: 100%;
+    background: rgb(41, 199, 211);
+}
+
+.slider-background-colors {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.slider-section .menu-section {
+    width: 17%;
+    height: 100%;
+    float: left;
+    background: #ffff;
+    margin-left: 50px;
+
+}
+
+.slider-section .images {
+    width: 74%;
+    height: 100%;
+    float: left;
+    position: relative;
+    left: 0;
+}
+
+.slider-section .images img {
+    height: 100%;
+    width: 100%;
+}
+
+/* menu-section-css */
+
+.slider-section .menu-down-style {
+    position: relative;
+    left: 10px;
+    top: 5px;
+    line-height: 2;
+}
+
+.slider-section .menu-down-style a:hover {
+    color: rgba(6, 199, 214);
+}
+
+.slider-section .menu-down-style a {
+    text-decoration: none;
+    display: block;
+    text-transform: capitalize;
+    color: #6e6e6e;
+}
+
+
+
+.product-color {
+    font-size: 24px;
+    color: rgb(167, 167, 167);
+    font-weight: 500;
+
+}
+
+
+span.price {
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    color: #282864;
+    font-weight: 700;
+    /* position: relative;
+    right: 10px; */
+}
+
+.rating {
+    color: rgb(255, 224, 0);
+    /* position: absolute;
+    right: 4px; */
+}
+
+
+/* .merchandise {
+    background-image: url(../img/car-ac/Bugatti-Chiron-Pur-Sport-25.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+} */
+
+
+
+/* footer-css */
+
+/* footer.footer-light {
+    background: #262362;
+    background-color: #262362;
+} */
+
+
+/*
+Footer Area Style
+======================================================*/
+
+.footer-area {
+    background: #262362;
+    background-color: #262362;
+}
+
+.footer-icon {
+    color: #fff;
+}
+
+.footer-icon i {
+    color: #fff;
+    position: relative;
+    top: 30px;
+    margin-right: 9px;
+    /* font-size: small; */
+}
+
+.footer-icon i:hover{
+    color: aqua;
+    transition: .5s;
+}
+
+.single-footer-widget {
+	margin-bottom: 24px;
+  }
+  
+  .single-footer-widget h3 {
+	font-size: 18px;
+	margin-bottom: 15px;
+    color: #fff;
+  }
+  
+  .single-footer-widget ul {
+	padding: 0;
+	margin: 0;
+	list-style-type: none;
+  }
+  ul.info-list{
+	  color: #fff;
+  }
+  
+  .single-footer-widget .info-list {
+	margin-bottom: 20px;
+  }
+  
+  .single-footer-widget .info-list li {
+	font-size: 14px;
+	position: relative;
+	padding-left: 4px;
+	margin-bottom: 17px;
+  }
+  
+  .single-footer-widget .info-list li:last-child {
+	margin-bottom: 0;
+  }
+
+
+
+  
+  .single-footer-widget .import-link li {
+	margin-bottom: 10px;
+  }
+  
+  .single-footer-widget .import-link li:last-child {
+	margin-bottom: 0;
+  }
+  
+  .single-footer-widget .app-btn {
+	margin-bottom: 20px;
+  }
+  
+  .single-footer-widget .app-btn li {
+	display: inline-block;
+	margin-right: 10px;
+  }
+  
+  .single-footer-widget .app-btn li:last-child {
+	margin-right: 0;
+  }
+  
+  .single-footer-widget .app-btn li a img {
+	max-width: 115px;
+  }
+  
+  /*
+Copy Right Area Style
+======================================================*/
+.copy-right-area {
+
+	padding-top: 15px;
+	padding-bottom: 15px;
+	text-align: center;
+        background-color: #222;
+  }
+  
+  .copy-right-area p  {
+	color: #ffff;
+  }
+  .copy-right-area p a {
+	color: #fff;
+	font-weight: 600;
+  }
+  
+  .copy-right-area p a:hover {
+	color: #03658c;
+  }
+ 
