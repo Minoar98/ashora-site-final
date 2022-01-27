@@ -262,6 +262,49 @@ i.fas.fa-search {
 
 
 
+.icon {
+    position: absolute;
+    top: 130px;
+    left: 10px;
+  }
+
+  .icon ul li{
+    list-style: none;
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    border-radius:50%;
+    text-align: center;
+    line-height: 40px;
+    background:#222;
+    display: none;
+  }
+
+
+  .card:hover .icon ul li{
+    display: inline-block;
+    transition: .5s;
+  }
+  
+  .icon ul li a {
+    color: #fff;
+  }
+
+  .card{
+    border: 1px solid #cccc;
+   
+  }
+
+  .card:hover{
+    box-shadow: 0 0 3px #cccc;
+    transform: scale(1.05);
+    transition: .5s linear;
+    border-color: #27aae1;
+  }
+  
+
+
+
 .product-color {
     font-size: 24px;
     color: rgb(167, 167, 167);
@@ -287,6 +330,10 @@ span.price {
 }
 
 
+
+
+
+
 /* .merchandise {
     background-image: url(../img/car-ac/Bugatti-Chiron-Pur-Sport-25.webp);
     background-repeat: no-repeat;
@@ -309,7 +356,7 @@ Footer Area Style
 ======================================================*/
 
 .footer-area {
-    background: #262362;
+  
     background-color: #262362;
 }
 
