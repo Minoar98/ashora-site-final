@@ -262,6 +262,11 @@ i.fas.fa-search {
 
 
 
+
+
+
+
+
 .icon {
     position: absolute;
     top: 130px;
@@ -278,6 +283,25 @@ i.fas.fa-search {
     line-height: 40px;
     background:#222;
     display: none;
+  }
+
+
+  .icon ul li a {
+    color: #fff;
+  }
+  .rating{
+    color: #f16334;
+    font-size: 14px;
+    margin-left: 25px;
+
+  }
+  
+  hr{
+    width: 80px;
+    margin: auto;
+    border: none;
+    border-top: 2px solid #031632;
+    margin-bottom: 10px;
   }
 
 
@@ -313,21 +337,24 @@ i.fas.fa-search {
 }
 
 
-span.price {
-    display: flex;
-    /* justify-content: center; */
-    align-items: center;
-    color: #282864;
+.product-name p {
+    color: #686868;
     font-weight: 700;
-    /* position: relative;
-    right: 10px; */
+    font-size: 16px;
 }
 
-.rating {
-    color: rgb(255, 224, 0);
-    /* position: absolute;
-    right: 4px; */
+.price {
+    display: flex;
+    justify-content: center;
+    color: #686868;
+    font-weight: 800;
+    font-size: 16px;
 }
+/* .rating {
+    color: rgb(255, 224, 0);
+    position: absolute;
+    right: 4px;
+} */
 
 
 
